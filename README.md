@@ -46,5 +46,5 @@ pip install opencv-python numpy
 ```
 **Run the motion detection script:**
 ```bash
- python intrusion_detection.py
+ python motiondetection.py
 ```
