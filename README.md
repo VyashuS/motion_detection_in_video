@@ -15,15 +15,14 @@ This project demonstrates a real-time **motion detection system** using OpenCV i
 
 ---
 
-##  Techniques Used
+##  Methods Used
 
-- `cv2.createBackgroundSubtractorMOG2()` – background subtraction  
-- `cv2.threshold()` – for binary mask creation  
-- `cv2.erode()` – morphological operation to reduce noise  
-- `cv2.findContours()` – detects contours in the binary mask  
-- `cv2.boundingRect()` – gets bounding rectangle around the contour  
-- `cv2.rectangle()` – draws bounding box on moving object  
-- `cv2.putText()` – displays alerts like "Intrusion Detected"
+- Background Subtraction
+- Mask Creation
+- Erosion (Noise Removal)
+- Contour Detection
+- Bounding Rectangles
+- Intrusion Alert Display
 
 ---
 
@@ -32,7 +31,7 @@ This project demonstrates a real-time **motion detection system** using OpenCV i
 - Python 3.x  
 - OpenCV  
 - NumPy
--   
+   
 **Clone the repository**:
 
    ```bash
