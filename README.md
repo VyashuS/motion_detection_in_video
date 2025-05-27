@@ -47,3 +47,5 @@ pip install opencv-python numpy
 ```bash
  python motiondetection.py
 ```
+# 🙋‍♂️ Author
+Made with ❤️ by [VyashuS](https://github.com/VyashuS/)
